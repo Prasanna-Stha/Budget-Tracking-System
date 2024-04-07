@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - BTS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containerBox">
+
+        <!-- left section of the page -->
+        <div class="leftMenuBar">
+            <!--logo img here-->
+            <div class="logoBox"></div>
+            <div class="menuElem overviewBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./home-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="#">Overview</a>
+                </div>
+            </div>
+            <div class="menuElem viewProfileBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./profile-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="#">View Profile</a>
+                </div>
+            </div>
+            <div class="menuElem calendarBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./calendar-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="#">Calendar</a>
+                </div>
+            </div>
+            <div class="menuElem settingBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./setting-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="#">Setting</a>
+                </div>
+            </div>
+            <div class="menuElem analyticBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./chart-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="#">Analytics</a>
+                </div>
+            </div>
+            <div class="menuElem logOutBox">
+                <div class="iconBox">
+                    <a href="#"><img src="./logout-icon.svg" alt="icon" class="icon"></a>
+                </div>
+                <div class="menuBox">
+                    <a href="../logInPage/index.html">Log Out</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- left menu bar ends here -->
+        <div class="dashSection">
+            <div class="mainSection">
+                <div class="userInfo">
+                    <div class="location">
+                        <div class="locationIcon"></div>
+                        <div class="textLocation">
+                            <h5>Ktm, Nepal</h5>
+                        </div>
+                    </div>
+                    <div class="userProfile">
+
+                    </div>
+                </div>
+                <div class="financeBox">
+                    <div class="incomeBox">
+                        <div class="incomeIcon"></div>
+                        <div class="incomeAmount">
+                            <h1>Income</h1>
+                            <h1>10,000</h1>
+                        </div>
+                    </div>
+                    <div class="expenseBox">
+                        <div class="expenseIcon"></div>
+                        <div class="expenseAmount">
+                            <h1>Expense</h1>
+                            <h1>2,500</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="budgetCategory">
+                    <div class="budgetHeading">
+                        <h1>Categories</h1>
+                    </div>
+                    <div class="expenseCategory">
+                        <div class="clothing expenseSubDivision">
+                            <h2>Clothing</h2>
+                        </div>
+                        <div class="grocery expenseSubDivision">
+                            <h2>Grocery</h2>
+                        </div>
+                        <div class="electronics expenseSubDivision">
+                            <h2>Electronics</h2>
+                        </div>
+                        <div class="addNew expenseSubDivision">
+                            <h2>+</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right section of the page -->
+            <div class="trackActivity ">
+                <div class="weeklyData ">
+                    <div class="DataTitle ">
+                        <div class="primaryTitle ">
+                            <h1>Budget Tracking</h1>
+                        </div>
+                        <div class="dateTrack ">
+                            <h3>Thursday, 22 Sep</h3>
+                        </div>
+                    </div>
+                    <div class="dailyData ">
+                        <div class="days sun ">
+                            <div class="day ">
+                                <h4>Sun</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>18</h4>
+                            </div>
+                        </div>
+                        <div class="days mon ">
+                            <div class="day ">
+                                <h4>Mon</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>19</h4>
+                            </div>
+                        </div>
+                        <div class="days tue ">
+                            <div class="day ">
+                                <h4>Tue</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>20</h4>
+                            </div>
+                        </div>
+                        <div class="days wed ">
+                            <div class="day ">
+                                <h4>Wed</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>21</h4>
+                            </div>
+                        </div>
+                        <div class="days thur ">
+                            <div class="day ">
+                                <h4>Thur</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>22</h4>
+                            </div>
+                        </div>
+                        <div class="days fri ">
+                            <div class="day ">
+                                <h4>Fri</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>23</h4>
+                            </div>
+                        </div>
+                        <div class="days sat ">
+                            <div class="day ">
+                                <h4>Sat</h4>
+                            </div>
+                            <div class="amount ">
+                                <h4>24</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="graph "></div>
+                    <div class="timeRange ">
+                        <div class="week range ">
+                            <h3>Week</h3>
+                        </div>
+                        <div class="month range ">
+                            <h3>Month</h3>
+                        </div>
+                        <div class="sixMonth range ">
+                            <h3>6-Month</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
